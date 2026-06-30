@@ -162,3 +162,33 @@ Prepare the backend for PDF text extraction
 Personal Reflection
 
 Today marked the transition from project planning to actual software development. The backend is operational, version control is fully configured, and the development workflow is established. Resolving Git authentication and repository issues provided practical experience with real-world development challenges. This milestone creates a strong foundation for implementing AI-powered document processing in the upcoming phases.
+
+# Day 3 - Document Ingestion Pipeline
+
+## Goals
+- Build a PDF upload endpoint
+- Save uploaded PDFs
+- Extract text using PyMuPDF
+- Extract metadata
+- Improve backend architecture
+
+## Completed
+- Created Upload API
+- Added PDF validation
+- Saved uploaded PDFs to backend/uploads
+- Generated UUID-based filenames
+- Extracted full PDF text
+- Extracted metadata (title, DOI, publication date, abstract)
+- Added Pydantic response model
+- Refactored business logic into PDFService
+- Implemented MetadataService
+
+## Challenges
+- Fixed circular import issue
+- Corrected project folder structure
+- Learned FastAPI response models
+- Refactored code for better maintainability
+
+## Status
+Document ingestion pipeline is complete and tested.
+Ready to start AI pipeline.

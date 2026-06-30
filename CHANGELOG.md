@@ -40,3 +40,22 @@ The format is based on **Keep a Changelog**, and this project follows Semantic V
 * File validation
 * PDF storage
 * Initial document processing pipeline
+
+## Version 0.3.0
+
+### Added
+- PDF upload endpoint
+- PDF validation
+- UUID-based file storage
+- PyMuPDF integration
+- Metadata extraction service
+- Pydantic response model
+
+### Improved
+- Refactored upload logic into PDFService
+- Cleaner project architecture
+- Better Swagger documentation
+
+### Fixed
+- Circular import issue
+- Duplicate filename overwrite issue
